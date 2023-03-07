@@ -1,0 +1,18 @@
+/*price*/
+thead {
+    background-color: #00a87e4f;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+    border: 0.5px solid #00664dbd;
+}
+tr, th, td {
+    padding: 8px;
+    border: 0.5px solid #00664dbd;
+}
+p > span,
+.name_reviews {
+    font-weight:bold;
+}

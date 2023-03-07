@@ -1,0 +1,41 @@
+/*contacts*/
+.justify-content{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-map > div {
+    margin: 10px;
+}
+.contacts-map > iframe {
+    margin: 30px 0;
+}
+.form-contacts {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #00664dbd;
+    position: relative;
+    top: 5%;
+    left: 14%;
+}
+.form-contacts > div > input {
+    width: 95%;
+}
+.form-head {
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+    background-color: #00a87e4f;
+}
+.button-contacts {
+    color: #ffffff;
+    background-color: #039974;
+    padding: 5px 20px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: 0;
+}
+.button-contacts:hover,
+.button-reviews:hover {
+    background-color: #0399749b;
+}

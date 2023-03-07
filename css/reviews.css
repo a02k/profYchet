@@ -1,0 +1,39 @@
+/*reviews*/
+.form-reviews {
+    width: 40%;
+    padding: 5px;
+    margin: 0 auto;
+}
+.section_p_reviews {
+    text-align: center;
+    color: #a6a6a6b6;
+}
+.email_reviews {
+    text-align: right;
+    color: #5093c3;
+}
+form > section > input,
+form > section > textarea,
+form > div > input,
+form > div > textarea {
+    width: 95%;
+    padding: 5px;
+    margin: 0 5px 10px 0;
+}
+.input_reviews {
+    padding: 0 5px 75px 5px;
+}
+.button-reviews {
+    color: #ffffff;
+    background-color: #039974;
+    padding: 5px 20px;
+    margin: 10px 0;
+    position: relative;
+    left: 30%;
+}
+.js-input {
+    background-color: #ff000083;
+}
+.label-color {
+    color: #ff0000;
+}

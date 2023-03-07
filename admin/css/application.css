@@ -1,0 +1,78 @@
+header > a {
+    padding: 5px 10px;
+    color: #ffffff;
+    background: #039974;
+}
+header > a:hover {
+    background: #039974aa;
+}
+.application-header {
+    text-align: end;
+}
+
+h1 {
+    color: #039974;
+}
+
+.main-application>div {
+    position: absolute;
+    left: 440px;
+    top: 10px;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+}
+
+.left-menu>div {
+    padding: 20px 0 0 0;
+}
+
+.left-menu>div>a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+    color: #000000;
+    border: 0;
+}
+
+.left-menu>div>a:hover {
+    color: #ffffff;
+    background-color: #0399749b;
+}
+
+.left-menu>img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table-application {
+    width: 1050px;
+}
+
+table {
+    text-align: center;
+}
+
+tr,
+th,
+td {
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}

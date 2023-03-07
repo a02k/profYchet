@@ -1,0 +1,63 @@
+body {
+    margin: 10px 20px 0;
+    padding: 0;
+}
+
+.container {
+    width: 1120px;
+    margin: auto;
+}
+
+header>img {
+    width: 150px;
+    height: auto;
+}
+
+.main-admin {
+    display: flex;
+    justify-content: center;
+    margin-top: 108px;
+}
+
+.form-admin-registration {
+    border: 1px solid #00664dbd;
+    padding: 10px 50px;
+}
+
+.form-admin-registration>div {
+    margin: 10px 0;
+}
+
+.form-admin-registration>button {
+    color: #ffffff;
+    background-color: #039974;
+    padding: 5px 20px;
+    margin: 5px 80px 20px;
+    border: 0;
+}
+
+.form-admin-registration>button:hover {
+    background-color: #0399749b;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+footer {
+    position: absolute;
+	left: 0;
+    right: 0;
+	bottom: 0;
+	width: 100%;
+    height: auto;
+    color: #ffffff;
+    background-color: #007c5d;
+}
+
+footer>section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}

@@ -1,0 +1,64 @@
+/*header*/
+.flex {
+    display: flex;
+}
+.header-section {
+    justify-content: space-between;
+}
+.header-section > section {
+    margin: 0 14px;
+}
+.header-section > section:first-child {
+    margin-left: 0;
+}
+.header-section > section:last-child {
+    margin-right: 0;
+}
+.header-section > p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.text-align-end > p {
+    text-align: end;
+}
+.js-header-button-menu,
+.button-menu-phone {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #5093c3;
+    border: 0;
+}
+.js-header-button-menu:hover {
+    background-color: #5093c3d0;
+}
+.button-menu-phone {
+    background-color: #039974;
+}
+.button-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-menu > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: 45px;
+    background-color: #039974;
+}
+.button-menu > a:first-child {
+    border-radius: 3px 0 0 3px;
+}
+.button-menu > a:last-child {
+    border-radius: 0 3px 3px 0;
+}
+.button-menu > a:hover,
+.button-menu-phone:hover{
+    color: #ffffff;
+    background-color: #039974aa;
+}

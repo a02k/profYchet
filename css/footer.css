@@ -1,0 +1,10 @@
+footer {
+    padding: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #007c5d;
+}
+footer > section {
+    display: flex;
+    justify-content: space-between;
+}

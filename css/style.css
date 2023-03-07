@@ -1,0 +1,36 @@
+body {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+main {
+    text-align: justify;
+}
+.container {
+    width: 1120px;
+    margin: auto;
+}
+.pathway {
+    margin: 15px 0 30px;
+}
+.pathway > span {
+    color: #00000095
+}
+.pathway > span > a {
+    color: #5093c3b4;
+}
+
+
+/*index main*/
+.img-loc {
+    width: 100%;
+    height: auto;
+}
+li {
+    margin: 5px;
+}
+h1 {
+    color: #039974;
+}
+h3, h4 {
+    font-size: 18pt;
+}
