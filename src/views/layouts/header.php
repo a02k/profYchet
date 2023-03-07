@@ -25,4 +25,6 @@
         <a href="reviews.php">ОТЗЫВЫ</a>
         <a href="contacts.php">КОНТАКТЫ</a>
     </section>
+    <?php viewInclude('layouts/freeBell'); ?>
+    <?php viewInclude('layouts/submitYourApplication'); ?>
 </header>
